@@ -1,4 +1,4 @@
-baseURL = 'https://goofish-shop.github.io/hugo-lillian/'
+baseURL = '/hugo-lillian/'
 languageCode = 'zh-CN'
 timeZone = 'Asia/Shanghai'
 title = 'Lillian Who'
@@ -74,7 +74,7 @@ rssLimit = 5
     startLevel = 1
     
 [outputs]
-  home = ["Atom", "HTML","JSON"] # <domain>/atom.xml
+  home = ["Atom", "HTML","JSON"] 
   page = ["HTML"]
   
 [outputFormats.Atom]
